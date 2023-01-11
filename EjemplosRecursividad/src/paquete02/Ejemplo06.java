@@ -15,7 +15,32 @@ public class Ejemplo06 {
         // [0][0]
         // [1][1]
         // hasta el final
-
+        
+        
+        
+        //soluciones al problema
+        for (int i = 0; i < valor1.length; i++) {       //posible solucion 1
+            System.out.printf("El valor es %d\n", 
+                    obtenerSuma(valor1[i],valor2[i]));
+        
+        for (int i = 0; valor1 < valor1.length; j++) {  // posible solucion 2
+              int num1 = valor1[i];
+              int num2 = valor2[i];
+              System.out.printf("El valor es: %d\n", 
+                      obtenerSuma (num1, num2) );
+            }
+        
+        for (int i = 0; i < valor1.length; i++) {       //posible solucion3
+              int num1 = valor1[i];
+              int num2 = valor2[i];
+              int suma = obtenerSuma(num1,num2);
+              System.out.printf("El valor es: %d\n", suma);
+                
+            }
+        
+        
+        
+        }
     }
 
     public static int obtenerSuma(int a, int b) {
@@ -29,5 +54,6 @@ public class Ejemplo06 {
             }
         }
     }
+    
 
 }
